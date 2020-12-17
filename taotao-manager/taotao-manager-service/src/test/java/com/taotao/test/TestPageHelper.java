@@ -9,6 +9,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class TestPageHelper {
@@ -31,5 +33,7 @@ public class TestPageHelper {
         System.out.println(pageInfo.getPageNum());
         System.out.println(pageInfo.getPageSize());
 
+        HashMap<String, Integer> hashMap = new HashMap<>();
+        List<String> list1 = new ArrayList<>();
     }
 }
